@@ -22,6 +22,7 @@ swift-translator-tests/
 ├── tests/
 │   ├── positive.spec.js          # Positive test scenarios
 │   └── negative.spec.js          # Negative test scenarios
+│   └── ui.spec.js          # UI test scenarios
 ├── models/
 │   └── TranslatorPage.js         # Page Object Model for translator page
 ├── data/
@@ -91,6 +92,11 @@ npx playwright test tests/positive.spec.js
 Execute only negative test scenarios:
 ```bash
 npx playwright test tests/negative.spec.js
+```
+
+Execute only Ui test scenarios:
+```bash
+npx playwright test tests/ui.spec.js
 ```
 
 ### Browser-Specific Testing
