@@ -274,20 +274,6 @@ Key configuration options in `playwright.config.js`:
 - Verify selectors in `TranslatorPage.js` match current application structure
 - Use `--headed` mode to visually inspect the application state
 
-## Future Enhancements
-
-Potential improvements for the test suite:
-
-- Add visual regression testing for UI consistency
-- Implement API testing for backend translation services
-- Add performance testing metrics
-- Expand test data with multilingual character sets
-- Integrate with CI/CD pipeline for automated execution
-
-## Contact & Support
-
-For questions or issues regarding this testing suite, please refer to the project documentation or contact the project maintainer.
-
 ---
 
 **Project Type**: Automated Testing Suite  
