@@ -282,6 +282,14 @@ Key configuration options in `playwright.config.js`:
 
 ---
 
+## Additional Resources
+
+- [Playwright Documentation](https://playwright.dev/)
+- [Playwright Test Best Practices](https://playwright.dev/docs/best-practices)
+- [Page Object Model Pattern](https://playwright.dev/docs/pom)
+
+---
+
 **Project Type**: Automated Testing Suite  
 **Framework**: Playwright Test  
 **Language**: JavaScript/TypeScript  
