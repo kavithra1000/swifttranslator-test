@@ -25,8 +25,7 @@ const positiveTestCases = [
     { id: 'POS_23', input: 'mama rassaavak karanavaa.', expected: 'මම රස්සාවක් කරනවා' },
     { id: 'POS_24', input: 'eyaa pansal giyaa.', expected: 'එයා පන්සල් ගියා' },
     { id: 'POS_25', input: 'Suba udhaeesanak', expected: 'සුබ උදෑසනක්' },
-    {
-        id: 'POS_26', input: `api adha gedhara yanavaa, haebaeyi traffic nisaa
+    { id: 'POS_26', input: `api adha gedhara yanavaa, haebaeyi traffic nisaa
  late veyi. mata office eke Zoom meeting eka
  thiyenne 10.30 AM ta. karuNaakarala mata 
 WhatsApp message ekak dhanna, oyaa enavadha
@@ -35,7 +34,7 @@ WhatsApp message ekak dhanna, oyaa enavadha
  balanna veyidha dhanne naee. mata popcorn 
 saha Coke kanna oonee. api gedharata 7.00 PM
  ta vath enna epaeyi.`,
-        expected: `අපි අද ගෙදර යනවා, හැබැයි traffic නිසා
+       expected: `අපි අද ගෙදර යනවා, හැබැයි traffic නිසා
  late වෙයි. මට office eke Zoom meeting
  එක තියෙන්නෙ 10.30 AM ට.
  කරුණාකරල මට WhatsApp message

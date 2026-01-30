@@ -4,7 +4,7 @@ import positiveTestCases from './data/positiveData.js';
 import negativeTestCases from './data/negativeData.js';
 
 test.describe('Swift Translator Data-Driven Suite', () => {
-  
+
   // Positive Loop
   for (const tc of positiveTestCases) {
     test(`Positive: ${tc.id}`, async ({ page }) => {
@@ -26,4 +26,17 @@ test.describe('Swift Translator Data-Driven Suite', () => {
       await expect(translator.outputBox).not.toContainText(tc.notExpected, { timeout: 30000 });
     });
   }
+
+  //UI test
+  test('UI_01: Clear button empties input and output', async ({ page }) => {
+    const translator = new TranslatorPage(page);
+    await translator.goto();
+    await translator.translate('mama gedhara yanawa');
+    await translator.clear();
+
+    await expect(translator.inputBox).toHaveValue('');
+    await expect(translator.outputBox).toHaveText('');
+  });
+
+
 });
